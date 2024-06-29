@@ -1,18 +1,12 @@
 # Ceramicnetwork Tap
 
+## What formulae are available?
+
+- [ceramic-one](https://github.com/ceramicnetwork/rust-ceramic/)
+
 ## How do I install these formulae?
 
-`brew install ceramicnetwork/tap/<formula>`
+`brew install ceramicnetwork/tap/ceramic-one`
 
-Or `brew tap ceramicnetwork/tap` and then `brew install <formula>`.
+Or `brew tap ceramicnetwork/tap` and then `brew install ceramic-one`.
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "ceramicnetwork/tap"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
