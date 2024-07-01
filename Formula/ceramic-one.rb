@@ -1,7 +1,6 @@
 class CeramicOne < Formula
   desc "Implementation of the Ceramic protocol in Rust"
   homepage "https://ceramic.network"
-  version "0.25.0"
   # Conditional URL and SHA based on architecture
   if Hardware::CPU.intel?
     url "https://github.com/ceramicnetwork/rust-ceramic/releases/download/v0.25.0/ceramic-one_x86_64-apple-darwin_brew-test.tar.gz"
