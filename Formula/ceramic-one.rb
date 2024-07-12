@@ -3,11 +3,11 @@ class CeramicOne < Formula
   homepage "https://ceramic.network"
   # Conditional URL and SHA based on architecture
   if Hardware::CPU.intel?
-    url "https://github.com/ceramicnetwork/rust-ceramic/releases/download/v0.25.0/ceramic-one_x86_64-apple-darwin.tar.gz"
-    sha256 "2856b06a337c0f34acb844c1c3df8f96d048950a5fe28e7718698c284a7fadb8"
+    url "https://github.com/ceramicnetwork/rust-ceramic/releases/download/v0.26.0/ceramic-one_x86_64-apple-darwin.tar.gz"
+    sha256 "b6678e9e2b5a56ccb00f0ca5cc028120af727060431799f0814d23818efdc192"
   elsif Hardware::CPU.arm?
-    url "https://github.com/ceramicnetwork/rust-ceramic/releases/download/v0.25.0/ceramic-one_aarch64-apple-darwin.tar.gz"
-    sha256 "d9a0b1d08ef71efef8f93c060756d3d3b154693122c09e40311ae3ca669674d8"
+    url "https://github.com/ceramicnetwork/rust-ceramic/releases/download/v0.26.0/ceramic-one_aarch64-apple-darwin.tar.gz"
+    sha256 "037a58e14722ea482fc1b30aa04649aad653e16ccca1568b2163dd07441e78e3"
   end
 
   def install
